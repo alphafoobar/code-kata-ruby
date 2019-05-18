@@ -1,4 +1,7 @@
+#!/usr/bin/env ruby
+
 class BinarySearch
+
     def chop(key, a)
         chopWorker(key, a, 0, a.length)
     end

@@ -1,2 +1,6 @@
 language: ruby
 dist: xenial
+ruby:
+    - 2.6
+
+script: rake spec

@@ -1,8 +1,11 @@
-require_relative '../lib/binary_search'
+#!/usr/bin/env ruby
+require_relative '../src/binary_search'
 require 'rspec'
 
 describe 'Binary search chop' do
 
+    # This is taken from the Kata on http://codekata.com/kata/kata02-karate-chop/ which obviously favours Ruby.
+    # I thought it was cool to use a more descriptive test title than test_chop.
     it 'should find the key or return -1' do
         binary_search = BinarySearch.new
         expect(binary_search.chop(3, [])).to eq -1
